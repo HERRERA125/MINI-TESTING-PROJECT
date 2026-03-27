@@ -1,0 +1,20 @@
+{
+  "name": "mini-testing-project",
+  "version": "1.0.0",
+  "description": "Proyecto ejemplo para probar herramientas de testing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "cypress": "^14.0.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
